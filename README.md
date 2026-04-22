@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2026 Nahyun Park <nahowo@naver.com>
+
+SPDX-License-Identifier: MIT
+-->
+
 # Final_Consonant_Formatter_CLI
 A Simple CLI tool for Final_Consonant_Formatter.
 

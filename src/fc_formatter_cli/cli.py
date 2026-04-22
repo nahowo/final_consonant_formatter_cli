@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Nahyun Park <nahowo@naver.com>
+#
+# SPDX-License-Identifier: MIT
+
 import typer
 from fc_formatter import attach_iga
 

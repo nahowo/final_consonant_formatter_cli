@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Nahyun Park <nahowo@naver.com>
+#
+# SPDX-License-Identifier: MIT
+
 poetry.lock
 src/fc_formatter_cli/__pycache__/
 *.pyc

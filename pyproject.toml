@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Nahyun Park <nahowo@naver.com>
+#
+# SPDX-License-Identifier: MIT
+
 [project]
 name = "fc-formatter-cli"
 version = "0.1.0"

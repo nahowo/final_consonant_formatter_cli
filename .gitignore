@@ -5,3 +5,4 @@
 poetry.lock
 src/fc_formatter_cli/__pycache__/
 *.pyc
+dist/

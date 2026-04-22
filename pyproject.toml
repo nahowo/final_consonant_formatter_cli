@@ -4,11 +4,12 @@
 
 [project]
 name = "fc-formatter-cli"
-version = "0.1.0"
+version = "0.1.1"
 description = "A CLI tool for python final_consonant_formatter package. "
 authors = [
     {name = "nahowo",email = "nahowo@naver.com"}
 ]
+license = "MIT"
 requires-python = ">=3.13"
 dependencies = [
     "final-consonant-formatter (>=0.1.0,<0.2.0)",

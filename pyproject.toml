@@ -1,0 +1,23 @@
+[project]
+name = "fc-formatter-cli"
+version = "0.1.0"
+description = "A CLI tool for python final_consonant_formatter package. "
+authors = [
+    {name = "nahowo",email = "nahowo@naver.com"}
+]
+requires-python = ">=3.13"
+dependencies = [
+    "final-consonant-formatter (>=0.1.0,<0.2.0)",
+    "typer (>=0.24.1,<0.25.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[project.scripts]
+fc-formatter-cli = "fc_formatter_cli.cli:app"
+
+[project.urls]
+Homepage = "https://github.com/nahowo/final_consonant_formatter_cli"

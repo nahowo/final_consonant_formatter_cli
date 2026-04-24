@@ -1,0 +1,27 @@
+name: Generate and Attach SBOM
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  sbom-generation:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+
+      - name: Generate SBOM using Anchore Syft
+        uses: anchore/sbom-action@v0
+        with:
+          format: spdx-json
+          output-file: fc_formatter_cli-sbom.spdx.json
+
+      - name: Upload SBOM to Release Assets
+        uses: softprops/action-gh-release@v2
+        with:
+          files: fc_formatter_cli-sbom.spdx.json

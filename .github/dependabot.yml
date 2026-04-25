@@ -3,6 +3,5 @@ updates:
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
-      interval: "cron"
-      cronjob: "14 22 * * *"
+      interval: "monthly"
       timezone: "Asia/Seoul"

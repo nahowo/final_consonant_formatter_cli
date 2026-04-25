@@ -42,14 +42,14 @@ files = [
 
 [[package]]
 name = "final-consonant-formatter"
-version = "0.1.0"
+version = "0.2.1"
 description = "A simple package to attach correct case particles based on whether a Korean syllable ends with a final consonant."
 optional = false
 python-versions = ">=3.8"
 groups = ["main"]
 files = [
-    {file = "final_consonant_formatter-0.1.0-py3-none-any.whl", hash = "sha256:02a008d633869d6b54f8a80c3abb5b0116d974423036788ea4d29e06d39df6c7"},
-    {file = "final_consonant_formatter-0.1.0.tar.gz", hash = "sha256:62803cdf55fbcb1668f89052b6e72a725549843f523add779d5a87361fbdbe62"},
+    {file = "final_consonant_formatter-0.2.1-py3-none-any.whl", hash = "sha256:7367b94467bc7728d82b42e6662c0b1921f125d381b9ba006d357dd68d8dba29"},
+    {file = "final_consonant_formatter-0.2.1.tar.gz", hash = "sha256:b6519d35423dac9addfa2b16ea0710c6b2d9aa86fa6878c63e8ca2defd8bee81"},
 ]
 
 [[package]]
@@ -155,4 +155,4 @@ shellingham = ">=1.3.0"
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.13"
-content-hash = "b3231ee51900e4f5fcb98a102b228e9a5bac8cf79243855d33799e708189d896"
+content-hash = "ad76010409a4b5c2d14b1ede0c637622a6f5a829a650b07b5c8a5ae090a0a7e7"

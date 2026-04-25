@@ -14,11 +14,15 @@ A Simple CLI tool for Final_Consonant_Formatter.
     ```
 2. Use fc_formatter_cli
     ```
-        $ fc-formatter-cli {noun} {verb}
+        $ fc-formatter-cli subject {noun} {verb}
+        $ fc-formatter-cli object {noun} {verb}
     ```
 
 ### Example
 ```
-    $ fc-formatter-cli 강아지 논다
-    created sentence: 강아지가 논다
+    $ fc-formatter-cli subject 강아지 산책한다
+    created sentence: 강아지가 산책한다
+
+    $ fc-formatter-cli object 저녁 먹는다
+    created sentence: 저녁을 먹는다
 ```
